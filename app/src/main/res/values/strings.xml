@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Bloom Admin</string>
+    <string name="action_settings">Settings</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_reservation_setter">ReservationSetter</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="status">
+        <item>Status</item>
+        <item>Pending</item>
+        <item>Confirm</item>
+        <item>Complete</item>
+        <item>Cancel</item>
+    </string-array>
+
+    <string-array name="statusorders">
+        <item>Status</item>
+        <item>Pending</item>
+        <item>Confirm</item>
+        <item>Complete</item>
+        <item>Cancel</item>
+    </string-array>
+</resources>

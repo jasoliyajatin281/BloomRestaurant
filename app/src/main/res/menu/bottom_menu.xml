@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/bottom_action_pending"
+            android:icon="@drawable/ic_pending"
+            android:title="Pending" />
+    <item
+            android:id="@+id/bottom_action_booked"
+            android:icon="@drawable/ic_reserved"
+            android:title="Reserved" />
+    <item
+            android:id="@+id/bottom_action_completed"
+            android:icon="@drawable/ic_reservation"
+            android:title="Previous/Completed" />
+
+
+</menu>

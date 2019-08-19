@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.in.codeh.bloomrestaurantvendor">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+            android:allowBackup="true"
+            android:hardwareAccelerated="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".detail.OrderDetail">
+        </activity>
+        <activity
+                android:name=".ManageOrders"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".RedeemPoints">
+        </activity>
+        <activity
+                android:name=".detail.ReservationDetail"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".SignInActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".ReservationSetter"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".AddPoints">
+        </activity>
+        <activity android:name=".ScannedBarCode">
+        </activity>
+        <activity
+                android:name=".MainActivity"
+                android:label="@string/app_name"
+                android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
